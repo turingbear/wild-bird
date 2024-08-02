@@ -134,10 +134,12 @@ ul {
   text-decoration: none;
   opacity: 0.75;
   font-weight: 300;
+  transition: transform 0.2s;
 }
 
 .menu__link:hover {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 .footer p {
