@@ -12,6 +12,7 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   min-height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Navigation */
@@ -36,6 +37,25 @@ ul {
     width: 100px;
     object-fit: contain;
 
+}
+/* Cover */
+
+
+.cover {
+    background-color: #444; /* A color that goes well with #333 */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cover h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.cover p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
 }
 
 
